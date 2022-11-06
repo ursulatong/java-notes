@@ -1,6 +1,10 @@
+1. Use of Lambda
+
+Lambda can only be used in certain types of interfaces.
+
 1.What is lambda expression?
 
-A lambda expression is a function which can be created without belonging to any class.
+A lambda expression is a function which can be created without belonging to any class. 
 Lambda expressions provides a clear and concise way to represent one method interface using an expression. 
 It also improve the Collection libraries making it easier to iterate through, 
 filter, and extract data from a Collection.
@@ -26,6 +30,11 @@ Argument List,	Arrow Token, 	Body (expression)
 () -> 42   // no arg and return integer 42
 
 (String s) -> { System.out.println(s); }  // takes a string and then print a string, return nothing
+
+
+
+Method reference
+
   
 
 

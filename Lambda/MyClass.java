@@ -1,4 +1,4 @@
-package com.vtxlab.java8LambdaExpression;
+package lambda;
 
 interface Age {
 

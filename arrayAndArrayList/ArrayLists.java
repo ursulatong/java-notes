@@ -1,4 +1,4 @@
-package com.vtxlab.datastructure;
+package arrayAndArrayList;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -9,7 +9,7 @@ public class ArrayLists {
   public static void main(String[] args) {
 
     // 1. Creation of an ArrayList
-    ArrayList<String> myarr = new ArrayList<>();
+    ArrayList<String> myarr = new ArrayList<>(); // the return type of ArrayList is String
     // ArrayList without value
     ArrayList<String> myarr2 = new ArrayList<>(10);
     // create an ArrayList with specific capacity
@@ -20,6 +20,10 @@ public class ArrayLists {
     myarr.add("Vincent");
     myarr.add(2, "Karson"); // adding element into the specific index
     System.out.println(myarr); // [Tommy, Steve, Karson, Vincent]
+    // as the return type of ArrayList is String, so we can just simply print out
+    // myarr
+    // if the return type is an Object, we need to use the get method to print out,
+    // othetwise we are only printing out the object address
 
     // 3. Method of ArrayList (List interface)
     // 3.1

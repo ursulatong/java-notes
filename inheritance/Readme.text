@@ -1,0 +1,7 @@
+1. Inheritance in Java
+    Inheritance is a relation between two classes, the parent and child class. 
+    The child class (sub-class) inherits all the properties of the parent class (super-class). 
+    To define the relation, we use extends keyword
+
+2. 
+Java does not support the multiple inheritance because of the diamond problem.
