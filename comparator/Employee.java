@@ -53,10 +53,11 @@ public class Employee implements Comparable<Employee> {
    * Comparator to sort employees list or array in order of Salary
    */
 
-  public static Comparator<Employee> salaryComparator = new Comparator<Employee>() {
+  public static Comparator<Employee> salaryComparator = new Comparator<Employee>() { // variable
     @Override
     public int compare(Employee emp1, Employee emp2) {
       return (int) (emp1.getSalary() - emp2.getSalary()); // ascending
+      // return emp1.getSalary().compareTo(emp2.getSalary());
     }
   };
 

@@ -67,14 +67,16 @@ public class ComparableAndComparatorExampleMain {
       // joinDate=2020-01-28]]
     }
 
-    EmployeeComparatorByJoinDate sortbyJoinDate = new EmployeeComparatorByJoinDate();
-    Collections.sort(employees, sortbyJoinDate);
-    System.out.println("After sorting by joinDate: " + employees);
-    /// ascending order:
-    // After sorting by joinDate: [[staffNo=1010, name=Atom, salary=100000.01,
-    // joinDate=2020-01-01],
-    // [staffNo=1004, name=Ben, salary=95000.5, joinDate=2020-01-11],
-    // [staffNo=1009, name=Doggy, salary=100000.04, joinDate=2020-01-18],
-    // [staffNo=1015, name=Coco, salary=134000.03, joinDate=2020-01-28]]
+    {
+      EmployeeComparatorByJoinDate sortbyJoinDate = new EmployeeComparatorByJoinDate();
+      Collections.sort(employees, sortbyJoinDate);
+      System.out.println("After sorting by joinDate: " + employees);
+      /// ascending order:
+      // After sorting by joinDate: [[staffNo=1010, name=Atom, salary=100000.01,
+      // joinDate=2020-01-01],
+      // [staffNo=1004, name=Ben, salary=95000.5, joinDate=2020-01-11],
+      // [staffNo=1009, name=Doggy, salary=100000.04, joinDate=2020-01-18],
+      // [staffNo=1015, name=Coco, salary=134000.03, joinDate=2020-01-28]]
+    }
   }
 }
