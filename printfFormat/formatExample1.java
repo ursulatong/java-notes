@@ -2,7 +2,7 @@ package printfFormat;
 
 import java.util.Scanner;
 
-public class formatExample {
+public class formatExample1 {
 
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
