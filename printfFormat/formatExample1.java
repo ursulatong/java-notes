@@ -2,6 +2,16 @@ package printfFormat;
 
 import java.util.Scanner;
 
+
+/*
+Expected Output
+================================
+java           100
+cpp            065
+python         050
+================================
+*/
+
 public class formatExample1 {
 
   public static void main(String[] args) {
